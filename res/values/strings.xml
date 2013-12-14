@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShareServices</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="service_emploi">Services et emploi</string>
+    <string name="service_info">Informatiques</string>
+    <string name="service_tele">Téléphones</string>
+    <string name="service_vehicule">Véhicules</string>
+    <string name="service_imob">Immobilier</string>
+    <string name="service_deco">Meubles et décoration</string>
+    <string name="service_vetement">Vétements</string>
+    <string name="service_search">Chercher</string>
+       <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="menu_item_pause_on_scroll">Pause on scroll</string>
+    <string name="menu_item_pause_on_fling">Pause on fling</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Boutique</item>
+        <item >Mes Offres</item>
+        <item >clients potentiels</item>
+        <item >Messages</item>
+        <item >Position</item>
+        <item >Déconnexion</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_offre</item>
+        <item>@drawable/ic_clients</item>
+        <item>@drawable/ic_chat</item>
+        <item>@drawable/ic_position</item>
+        <item>@drawable/ic_shutdown</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

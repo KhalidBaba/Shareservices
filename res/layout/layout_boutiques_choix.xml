@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- Included header.xml here -->
+	<ViewStub android:id="@+id/vsHeader" 
+	    android:inflatedId="@+id/header" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:layout="@layout/header" />
+
+	<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="6dip">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_eclair"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/service_emploi"
+            android:drawableTop="@drawable/ic_service_emploi"/>
+        <Button android:id="@+id/main_btn_froyo"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/service_info"
+            android:drawableTop="@drawable/ic_service_info"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_gingerbread"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/service_tele"
+            android:drawableTop="@drawable/ic_service_tele"/>
+        <Button android:id="@+id/main_btn_honeycomb"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/service_vehicule"
+            android:drawableTop="@drawable/ic_service_vehicule"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <Button android:id="@+id/main_btn_ics"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/service_imob"
+            android:drawableTop="@drawable/ic_service_imob"/>
+        <Button android:id="@+id/main_btn_jellybean"
+            style="@style/HomeButton"
+            android:onClick="onButtonClicker"
+            android:text="@string/service_vetement"
+            android:drawableTop="@drawable/ic_service_vetement"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</LinearLayout>
